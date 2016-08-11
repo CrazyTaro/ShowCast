@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_10dp">
+
+    <LinearLayout
+        android:id="@+id/ll_profile_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_profile_avatar"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_profile_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:text="grant@meedoo.cc"
+            android:textSize="@dimen/text_size_12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_profile_avatar"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_profile_live_channel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_5dp"
+            android:paddingLeft="@dimen/padding_5dp"
+            android:paddingTop="@dimen/padding_5dp"
+            android:text="grant@meedoo.cc"
+            android:textSize="@dimen/text_size_12sp"/>
+
+        <TextView
+            android:id="@+id/tv_profile_stream_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_5dp"
+            android:paddingLeft="@dimen/padding_5dp"
+            android:paddingTop="@dimen/padding_5dp"
+            android:text="grant@meedoo.cc"
+            android:textSize="@dimen/text_size_12sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_profile_record_priority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_5dp"
+            android:paddingLeft="@dimen/padding_5dp"
+            android:paddingTop="@dimen/padding_5dp"
+            android:text="grant@meedoo.cc"
+            android:textSize="@dimen/text_size_12sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_profile_devices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_5dp"
+            android:paddingLeft="@dimen/padding_5dp"
+            android:paddingTop="@dimen/padding_5dp"
+            android:text="grant@meedoo.cc"
+            android:textSize="@dimen/text_size_12sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_profile_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_5dp"
+            android:paddingLeft="@dimen/padding_5dp"
+            android:paddingTop="@dimen/padding_5dp"
+            android:text="grant@meedoo.cc"
+            android:textSize="@dimen/text_size_12sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_profile_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_5dp"
+            android:paddingLeft="@dimen/padding_5dp"
+            android:paddingTop="@dimen/padding_5dp"
+            android:text="grant@meedoo.cc"
+            android:textSize="@dimen/text_size_12sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_profile_sign_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="@dimen/padding_5dp"
+        android:text="SIGN OUT"
+        android:textSize="@dimen/text_size_12sp"/>
+
+    <TextView
+        android:id="@+id/tv_profile_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/padding_5dp"
+        android:text="Terms"
+        android:textSize="@dimen/text_size_12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_profile_sign_out"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+
+        <ProgressBar
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_20dp"
+            android:paddingBottom="@dimen/padding_5dp"
+            android:paddingTop="@dimen/padding_5dp"
+            android:progress="70"
+            android:progressDrawable="@drawable/progerss_profile"/>
+
+        <TextView
+            android:id="@+id/tv_profile_used_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12 of 35 hour used"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
