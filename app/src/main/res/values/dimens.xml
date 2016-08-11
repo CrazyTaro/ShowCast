@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_12dp">12dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_30dp">30dp</dimen>
+
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+
+    <dimen name="height_toolbar">35dp</dimen>
+    <dimen name="height_item_live_now">200dp</dimen>
+    <!--一半的item高度-->
+    <dimen name="height_item_live_now_mask">100dp</dimen>
+    <dimen name="height_profile_avatar">45dp</dimen>
+</resources>
