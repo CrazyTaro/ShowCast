@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <!--本界面复用,用于设置的channel,stream及record priority-->
+
+    <include
+        android:id="@id/rl_toolbar_main"
+        layout="@layout/layout_toolbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_toolbar_main"/>
+
+</RelativeLayout>

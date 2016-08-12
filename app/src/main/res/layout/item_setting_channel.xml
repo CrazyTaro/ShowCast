@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_8dp">
+
+    <TextView
+        android:id="@+id/tv_item_setting_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="grant@meedoo.cc"
+        android:textSize="@dimen/text_size_24sp"/>
+
+    <Switch
+        android:id="@+id/sw_item_setting_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:checked="true"/>
+
+</RelativeLayout>

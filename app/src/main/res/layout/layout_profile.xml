@@ -40,7 +40,7 @@
             android:paddingBottom="@dimen/padding_5dp"
             android:paddingLeft="@dimen/padding_5dp"
             android:paddingTop="@dimen/padding_5dp"
-            android:text="grant@meedoo.cc"
+            android:text="@string/setting_profile_channel"
             android:textSize="@dimen/text_size_12sp"/>
 
         <TextView
@@ -50,7 +50,7 @@
             android:paddingBottom="@dimen/padding_5dp"
             android:paddingLeft="@dimen/padding_5dp"
             android:paddingTop="@dimen/padding_5dp"
-            android:text="grant@meedoo.cc"
+            android:text="@string/setting_profile_stream"
             android:textSize="@dimen/text_size_12sp"/>
 
 
@@ -61,7 +61,7 @@
             android:paddingBottom="@dimen/padding_5dp"
             android:paddingLeft="@dimen/padding_5dp"
             android:paddingTop="@dimen/padding_5dp"
-            android:text="grant@meedoo.cc"
+            android:text="@string/setting_profile_record_priority"
             android:textSize="@dimen/text_size_12sp"/>
 
 
@@ -72,7 +72,7 @@
             android:paddingBottom="@dimen/padding_5dp"
             android:paddingLeft="@dimen/padding_5dp"
             android:paddingTop="@dimen/padding_5dp"
-            android:text="grant@meedoo.cc"
+            android:text="@string/setting_profile_devices"
             android:textSize="@dimen/text_size_12sp"/>
 
 
@@ -83,7 +83,7 @@
             android:paddingBottom="@dimen/padding_5dp"
             android:paddingLeft="@dimen/padding_5dp"
             android:paddingTop="@dimen/padding_5dp"
-            android:text="grant@meedoo.cc"
+            android:text="@string/setting_profile_account"
             android:textSize="@dimen/text_size_12sp"/>
 
 
@@ -94,7 +94,7 @@
             android:paddingBottom="@dimen/padding_5dp"
             android:paddingLeft="@dimen/padding_5dp"
             android:paddingTop="@dimen/padding_5dp"
-            android:text="grant@meedoo.cc"
+            android:text="@string/setting_profile_help"
             android:textSize="@dimen/text_size_12sp"/>
 
     </LinearLayout>

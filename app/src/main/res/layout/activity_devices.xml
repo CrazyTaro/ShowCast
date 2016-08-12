@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/setting_devices_enter_tv_code"/>
+
+    <EditText
+        android:id="@+id/et_setting_devices_enter_tv_code"
+        android:layout_width="@dimen/width_device_enter_tv_code"
+        android:layout_height="@dimen/height_device_enter_tv_code"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/padding_30dp"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_setting_devices_link_tv"
+        android:layout_width="@dimen/width_device_enter_tv_code"
+        android:layout_height="@dimen/height_device_enter_tv_code"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/padding_30dp"
+        android:background="@color/mild_red"
+        android:text="@string/setting_devices_link_tv"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/padding_30dp"
+        android:text="@string/setting_devices_where_tv_code"/>
+
+</LinearLayout>
