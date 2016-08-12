@@ -6,11 +6,19 @@
 
     <color name="transparent_white">#00FFFFFF</color>
     <color name="transparent_black">#00000000</color>
+    <color name="transparent_white_0.3">#4CFFFFFF</color>
+
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="dark_black">#3c4847</color>
+    <color name="grass_green">#2bb899</color>
+    <color name="dark_green">#1a9a7e</color>
     <color name="mild_red">#FF9900</color>
     <color name="light_gray">#999999</color>
+    <color name="error_gray">#d8d8d8</color>
 
     <color name="textColor">@color/white</color>
     <color name="textHint">#777777</color>
+
+    <color name="show_card_unrecorded">#FF3333</color>
 </resources>

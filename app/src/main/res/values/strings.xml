@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">ShowCast</string>
+    <string name="example">grant@meedoo.cc</string>
+
+    <!--setting,设置界面-->
+    <!--profile-->
+    <string name="setting_profile_channel">LIVE TV CHANNELS</string>
+    <string name="setting_profile_stream">STREAMING APP</string>
+    <string name="setting_profile_record_priority">RECORD PRIORITY</string>
+    <string name="setting_profile_devices">DEVICES</string>
+    <string name="setting_profile_account">ACCOUNT</string>
+    <string name="setting_profile_help">HELP &#038; SUPPORT</string>
+    <string name="setting_stream_get_app">GET APP</string>
+    <string name="setting_devices_enter_tv_code">Enter the code displayed on TV</string>
+    <string name="setting_devices_link_tv">LINK</string>
+    <string name="setting_devices_where_tv_code">where is my link code?</string>
+
+    <!--show card,节目详情-->
+    <string name="show_card_unrecorded">RECORD</string>
+    <string name="show_card_record_all">REC ALL</string>
+    <string name="show_card_record_now">REC NOW</string>
+    <!--detail-->
+    <string name="show_card_detail_recommend">You Might Like:</string>
+
 </resources>

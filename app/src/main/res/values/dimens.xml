@@ -20,4 +20,7 @@
     <!--一半的item高度-->
     <dimen name="height_item_live_now_mask">100dp</dimen>
     <dimen name="height_profile_avatar">45dp</dimen>
+    <dimen name="height_device_enter_tv_code">40dp</dimen>
+
+    <dimen name="width_device_enter_tv_code">200dp</dimen>
 </resources>
