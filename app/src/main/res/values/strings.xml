@@ -2,6 +2,11 @@
     <string name="app_name">ShowCast</string>
     <string name="example">grant@meedoo.cc</string>
 
+    <!--main,主界面相关的文本-->
+    <string name="main_fragment_title_live">LIVE TV</string>
+    <string name="main_fragment_title_discovery">DISCOVERY</string>
+    <string name="main_fragment_title_library">LIBRARY</string>
+
     <!--setting,设置界面-->
     <!--profile-->
     <string name="setting_profile_channel">LIVE TV CHANNELS</string>
@@ -11,6 +16,13 @@
     <string name="setting_profile_account">ACCOUNT</string>
     <string name="setting_profile_help">HELP &#038; SUPPORT</string>
     <string name="setting_stream_get_app">GET APP</string>
+    <!--page title-->
+    <string name="setting_title_live_channel">Live TV Channels</string>
+    <string name="setting_title_stream_app">Streaming Apps</string>
+    <string name="setting_title_record_priority">Record Priority</string>
+    <string name="setting_title_devices">Devices</string>
+    <string name="setting_title_link_device">Link Device</string>
+    <!--link device-->
     <string name="setting_devices_enter_tv_code">Enter the code displayed on TV</string>
     <string name="setting_devices_link_tv">LINK</string>
     <string name="setting_devices_where_tv_code">where is my link code?</string>
@@ -19,6 +31,9 @@
     <string name="show_card_unrecorded">RECORD</string>
     <string name="show_card_record_all">REC ALL</string>
     <string name="show_card_record_now">REC NOW</string>
+    <string name="show_card_tab_title_date">DATE</string>
+    <string name="show_card_tab_title_season">SEASON</string>
+    <string name="show_card_tab_title_detail">DETAIL</string>
     <!--detail-->
     <string name="show_card_detail_recommend">You Might Like:</string>
 

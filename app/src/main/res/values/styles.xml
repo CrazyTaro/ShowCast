@@ -15,7 +15,6 @@
 
     <style name="AppTheme.Switch" parent="AppTheme">
         <item name="colorAccent">@color/mild_red</item>
-        <item name="trackTint">@color/mild_red</item>
     </style>
 
 </resources>

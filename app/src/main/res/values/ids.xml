@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_toolbar" type="id"/>
+    <item name="main_second_navigate_bar" type="id"/>
+    <item name="main_navigate_bar" type="id"/>
+    <item name="main_profile" type="id"/>
+    <item name="show_card_info" type="id"/>
+    <item name="show_card_play" type="id"/>
+</resources>

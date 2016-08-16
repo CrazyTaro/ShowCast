@@ -15,12 +15,16 @@
     <dimen name="text_size_12sp">12sp</dimen>
     <dimen name="text_size_24sp">24sp</dimen>
 
-    <dimen name="height_toolbar">35dp</dimen>
+    <dimen name="height_navigate_bar">50dp</dimen>
+    <dimen name="height_second_navigate_bar">30dp</dimen>
+
     <dimen name="height_item_live_now">200dp</dimen>
     <!--一半的item高度-->
     <dimen name="height_item_live_now_mask">100dp</dimen>
     <dimen name="height_profile_avatar">45dp</dimen>
     <dimen name="height_device_enter_tv_code">40dp</dimen>
+    <dimen name="height_show_card_info">300dp</dimen>
+    <dimen name="height_show_card_info_full">400dp</dimen>
 
     <dimen name="width_device_enter_tv_code">200dp</dimen>
 </resources>
