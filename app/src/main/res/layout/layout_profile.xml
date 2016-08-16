@@ -24,7 +24,8 @@
             android:ellipsize="end"
             android:gravity="center_vertical"
             android:text="grant@meedoo.cc"
-            android:textSize="@dimen/text_size_12sp"/>
+            android:textSize="@dimen/text_size_12sp"
+            android:id="@+id/tv_profile_user"/>
     </LinearLayout>
 
     <LinearLayout
@@ -137,7 +138,8 @@
             android:paddingBottom="@dimen/padding_5dp"
             android:paddingTop="@dimen/padding_5dp"
             android:progress="70"
-            android:progressDrawable="@drawable/progerss_profile"/>
+            android:progressDrawable="@drawable/progerss_profile"
+            android:id="@+id/pb_profile_use_hour"/>
 
         <TextView
             android:id="@+id/tv_profile_used_time"
