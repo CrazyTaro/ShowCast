@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_item_live_now_mask"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/shape_half_transparent"/>
+        android:background="@drawable/shape_live_show_transparent"/>
 
     <TextView
         android:id="@+id/tv_item_live_now_main"
