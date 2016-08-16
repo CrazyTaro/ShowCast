@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    android:id="@+id/sl_show_card_layer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@id/main_toolbar"
+    android:gravity="bottom"
+    app:umanoPanelHeight="150dp">
+
+    <include
+        android:id="@id/show_card_play"
+        layout="@layout/layout_show_card_play"/>
+
+    <include
+        android:id="@id/show_card_info"
+        layout="@layout/layout_show_card"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"/>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>
+
+
+    <!--<RelativeLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/mild_red">-->
+
+    <!--<include-->
+    <!--android:id="@id/main_toolbar"-->
+    <!--layout="@layout/layout_toolbar"/>-->
+
+    <!--<com.wunderlist.slidinglayer.SlidingLayer-->
+    <!--android:id="@+id/sl_show_card_layer"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="400dp"-->
+    <!--android:gravity="bottom"-->
+    <!--app:changeStateOnTap="true"-->
+    <!--app:offsetDistance="150dp"-->
+    <!--app:previewOffsetDistance="400dp"-->
+    <!--app:stickTo="bottom">-->
+
+    <!--<include-->
+    <!--android:id="@id/show_card_info"-->
+    <!--layout="@layout/layout_show_card"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignParentBottom="true"/>-->
+
+
+    <!--</com.wunderlist.slidinglayer.SlidingLayer>-->
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/rl_show_card_play"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_below="@id/main_toolbar">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/shape_show_card_play_bg"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:paddingBottom="@dimen/padding_5dp"-->
+    <!--android:paddingLeft="@dimen/padding_10dp"-->
+    <!--android:paddingRight="@dimen/padding_10dp"-->
+    <!--android:paddingTop="@dimen/padding_5dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:src="@mipmap/ic_launcher"/>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_show_card_play_1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/example"-->
+    <!--android:textSize="@dimen/text_size_12sp"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_show_card_play_main"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/example"-->
+    <!--android:textSize="@dimen/text_size_24sp"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_show_card_play_2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/example"-->
+    <!--android:textSize="@dimen/text_size_12sp"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <!--</RelativeLayout>-->
+
+    <!--</RelativeLayout>-->
+

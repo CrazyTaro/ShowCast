@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@color/transparent_black_0.5">
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tl_show_card_title"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/mild_red"
+        app:tabTextColor="@color/white"/>
 
     <LinearLayout
         android:id="@+id/ll_show_card_action"
@@ -38,9 +42,18 @@
 
     </LinearLayout>
 
+    <View
+        android:id="@+id/v_show_card_info_place"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"/>
+
     <android.support.v4.view.ViewPager
+        android:id="@+id/vp_show_card_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@id/v_show_card_info_place"
         android:layout_below="@id/ll_show_card_action"/>
 
 </RelativeLayout>
